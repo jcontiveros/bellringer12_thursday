@@ -1,8 +1,9 @@
 puts "enter one number"
-	one_number = gets.chomp 
+	one_number= gets.chomp 
+	one_number= array.new[one_number]
 puts "enter another number"	
 	two_number = gets.chomp
-
+	two_number = array.new[two]
 class Number
 attr_accessor'one_number', 'two_number'	
 
