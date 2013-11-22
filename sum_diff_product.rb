@@ -1,9 +1,6 @@
-puts "enter one number"
-	one_number= gets.chomp 
-	one_number= array.new[one_number]
-puts "enter another number"	
-	two_number = gets.chomp
-	two_number = array.new[two]
+puts "enter two numbers"
+	one_number , two_number= gets.chomp . split
+
 class Number
 attr_accessor'one_number', 'two_number'	
 
